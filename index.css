@@ -1,0 +1,103 @@
+.group
+{
+   margin: 0;
+   padding: 0;
+   background-color: #ff3131;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+.title
+{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   background-image: url('./resources/EstelleDarcy1.png');
+   height: 100%;
+   width: 100%;
+   align-items: left;
+   justify-content: center;
+}
+.title>h1, .title>p
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100px;
+   font-family: PT Serif;
+   margin-left: 150px;
+}
+.title>p
+{
+   font-size: 40px;
+}
+
+.intro
+{
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   background-image: url('./resources/EstelleDarcy2.png');
+   height: 100vh;
+   width: 100%;
+   align-items: center;
+   border: 2px solid black;
+}
+
+.intro>h2, .intro>pre
+{
+   margin: 0;
+   padding: 0;
+   color: #ff3131;
+   font-size: 40px;
+   font-family: PT Serif;
+}
+
+.intro>pre
+{
+   font-size: 20px;
+}
+
+.intro>img
+{
+   margin-top: 200px;
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   border: 2px solid black;
+}
+.group
+{
+   display: block;
+   flex-direction: column;
+   background-color: #ff3131;
+}
+
+.skills
+{
+   height: 35%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: #ff3131;
+}
+
+.contact
+{
+   height: 25%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: #ff3131;
+}
+
+.bg-color
+{
+   background-color: #ff3131;
+}
+
+.footer
+{
+   background-color: #ff3131;
+}
